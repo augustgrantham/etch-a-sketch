@@ -7,9 +7,11 @@ div {
     outline: .25em solid black;
     box-sizing: border-box;
     display: flex;
-    height:100%;
-    width: 100%;
-    flex:1;
+    align-self: flex-start;
+    height: 6.25%;
+    width:6.25%;
+    padding: 0%;
+    margin: 0%;
 }
 
 #container {
@@ -18,6 +20,9 @@ div {
     display:flex;
     flex-direction:row;
     flex-wrap: wrap;
-    
 
+}
+
+.draw {
+    background-color: black;
 }
